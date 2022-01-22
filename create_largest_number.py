@@ -5,9 +5,6 @@ def create_largest_number(number_list):
         largest_number += str(number_list[i+1])
     return int(largest_number)
         
-    
-
-
 number_list=[23,45,67]
 largest_number=create_largest_number(number_list)
 print(largest_number)
