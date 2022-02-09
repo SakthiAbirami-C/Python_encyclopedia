@@ -1,0 +1,8 @@
+def staircase(n):
+    a=n-1
+    b=1
+    for i in range(n):
+        print(" "*a,end="")
+        print("#"*b)
+        a =a-1
+        b+=1
